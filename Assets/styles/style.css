@@ -1,31 +1,12 @@
-:root {
-    --cor-primaria: #8941F5; /* Cor primária */
-    --cor-azul: hsl(225, 90%, 61%);
-    --cor-roxo-escuro: #4F42F5;
-    --cor-rosa-claro: #C442F5;
-    --cor-rosa-choque: #F542E3;
-    --cor-roxo-claro: #BB94F5;
-    --cor-branco: #fff;
+/*Para não precisar modificar o tema do Bootstrap com Saas optei por criar um arquivo
+CSS a parte para estilizar algumas coisas.
+*/
 
-}
-
-.navbar{
+/* O !important serve para sobrescrever estilos das classes do Bootstrap*/
+.navbar {
     background-color: #8941F5 !important;
 }
 
 .nav-link {
     color: #fff !important;
 }
-
-.btn{
-    background-color: #fff !important;
-    color: #8941F5;
-    border: #4F42F5;
-}
-
-.btn:hover{
-    background-color: #4F42F5!important;
-    color: #8941F5;
-    border: #4F42F5;
-}
-

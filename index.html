@@ -10,7 +10,7 @@
 </head>
 
 <body>
-  
+
   <!--Cabeçalho-->
   <header class="header">
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
@@ -67,7 +67,7 @@
           </ul>
           <form class="d-flex" role="search">
             <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Buscar</button>
+            <button class="btn btn-primary" type="submit">Buscar</button>
           </form>
         </div>
       </div>
@@ -75,7 +75,7 @@
   </header>
 
   <!--Carrosel-->
-  <section>
+  <section class="section">
     <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-indicators">
         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
@@ -87,42 +87,18 @@
       </div>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400"
-            xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: First slide"
-            preserveAspectRatio="xMidYMid slice" focusable="false">
-            <title>Placeholder</title>
-            <rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#555" dy=".3em">First
-              slide</text>
-          </svg>
+          <img src="/Assets/imagens/img-banner-1.PNG" class="d-block w-100" alt="">
           <div class="carousel-caption d-none d-md-block">
-            <h5>First slide label</h5>
-            <p>Some representative placeholder content for the first slide.</p>
           </div>
         </div>
         <div class="carousel-item">
-          <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400"
-            xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Second slide"
-            preserveAspectRatio="xMidYMid slice" focusable="false">
-            <title>Placeholder</title>
-            <rect width="100%" height="100%" fill="#666"></rect><text x="50%" y="50%" fill="#444" dy=".3em">Second
-              slide</text>
-          </svg>
+          <img src="/Assets/imagens/img-banner-2.PNG" class="d-block w-100" alt="">
           <div class="carousel-caption d-none d-md-block">
-            <h5>Second slide label</h5>
-            <p>Some representative placeholder content for the second slide.</p>
           </div>
         </div>
         <div class="carousel-item">
-          <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400"
-            xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Third slide"
-            preserveAspectRatio="xMidYMid slice" focusable="false">
-            <title>Placeholder</title>
-            <rect width="100%" height="100%" fill="#555"></rect><text x="50%" y="50%" fill="#333" dy=".3em">Third
-              slide</text>
-          </svg>
+          <img src="/Assets/imagens/img-banner-3.PNG" class="d-block w-100" alt="">
           <div class="carousel-caption d-none d-md-block">
-            <h5>Third slide label</h5>
-            <p>Some representative placeholder content for the third slide.</p>
           </div>
         </div>
       </div>
@@ -139,93 +115,100 @@
     </div>
   </section>
 
-  <section class="container mx-auto">
-    
-    
-    <div class="container row mx-auto g-4">
-      <h2 class="p-2">Produtos</h2>
-      <!--Ração seca-->
-      <div class="col-6 col-md-4 col-xxl-2">
-        <div class="card">
-          <svg class="bd-placeholder-img card-img-top" width="100%" height="180" xmlns="http://www.w3.org/2000/svg"
-            role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false">
-            <title>Placeholder</title>
-            <rect width="100%" height="100%" fill="#868e96"></rect>
-            <text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text>
-          </svg>
-          <div class="card-header">
-            <p class="text-center">Ração seca</p>
-          </div>
+  <!--Produtos-->
+  <main>
+    <section class="container mx-auto mt-4">
+      <div class="container row mx-auto g-4">
+        <h2 class="p-2">Produtos</h2>
+
+        <!--Ração seca-->
+        <div class="col-6 col-md-4 col-xxl-2">
+          <a href="#" class="text-decoration-none text-dark">
+            <div class="card">
+              <img style="height: 150px; width: 100%;" src="/Assets/imagens/img-racao.png" class="card-img-top"
+                alt="Imagem de ração na tijela.">
+              <div class="card-header">
+                <p class="card-title">Ração seca</p>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <!--Ração úmida-->
+        <div class="col-6 col-md-4 col-xxl-2 ">
+          <a href="#" class="text-decoration-none text-dark">
+            <div class="card">
+              <img style="height: 150px; width: 100%" src="/Assets/imagens/img-racao-umida.PNG" class="card-img-top"
+                alt="Imagem de ração na tijela.">
+              <div class="card-header">
+                <p class="card-title">Ração úmida</p>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <!--Em breve-->
+        <div class="col-6 col-md-4 col-xxl-2">
+          <a href="#" class="text-decoration-none text-dark">
+            <div class="card">
+              <img style="height: 150px; width: 100%" src="/Assets/imagens/img-em-breve.jpeg" class="card-img-top"
+                alt="Imagem de ração na tijela.">
+              <div class="card-header">
+                <p class="card-title">Em breve</p>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!--Serviços-->
+    <section>
+      <div class="container row mx-auto g-4">
+        <h2 class="p-2">Produtos</h2>
+
+        <!--Banho-->
+        <div class="col-6 col-md-4 col-xxl-2">
+          <a href="#" class="text-decoration-none text-dark">
+            <div class="card">
+              <img style="height: 150px; width: 100%;" src="/Assets/imagens/img-banho.png" class="card-img-top"
+                alt="Imagem de ração na tijela.">
+              <div class="card-header">
+                <p class="card-title">Banho</p>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <!--Tosa-->
+        <div class="col-6 col-md-4 col-xxl-2 ">
+          <a href="#" class="text-decoration-none text-dark">
+            <div class="card">
+              <img style="height: 150px; width: 100%" src="/Assets/imagens/img-tosa.jpg" class="card-img-top"
+                alt="Imagem de ração na tijela.">
+              <div class="card-header">
+                <p class="card-title">Tosa</p>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <!--Em breve-->
+        <div class="col-6 col-md-4 col-xxl-2">
+          <a href="#" class="text-decoration-none text-dark">
+            <div class="card">
+              <img style="height: 150px; width: 100%" src="/Assets/imagens/img-em-breve.jpeg" class="card-img-top"
+                alt="Imagem de ração na tijela.">
+              <div class="card-header">
+                <p class="card-title">Em breve</p>
+              </div>
+            </div>
+          </a>
         </div>
       </div>
 
-      <!--Ração úmida-->
-      <div class="col-6 col-md-4 col-xxl-2">
-        <div class="card">
-          <svg class="bd-placeholder-img card-img-top" width="100%" height="180" xmlns="http://www.w3.org/2000/svg"
-            role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false">
-            <title>Placeholder</title>
-            <rect width="100%" height="100%" fill="#868e96"></rect>
-            <text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text>
-          </svg>
-          <div class="card-header">
-            <p class="text-center">Ração úmida</p>
-          </div>
-        </div>
-      </div>
-
-      <!--Em breve-->
-      <div class="col-6 col-md-4 col-xxl-2">
-        <div class="card">
-          <svg class="bd-placeholder-img card-img-top" width="100%" height="180" xmlns="http://www.w3.org/2000/svg"
-            role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false">
-            <title>Placeholder</title>
-            <rect width="100%" height="100%" fill="#868e96"></rect>
-            <text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text>
-          </svg>
-          <div class="card-header">
-            <p class="text-center">Em breve</p>
-          </div>
-        </div>
-      </div>
-    
-      <h2 class="p-2">Serviços</h2>
-      <!--Banho-->
-      <div class="col-6 col-md-4 col-xxl-2">
-        <div class="card">
-          <svg class="bd-placeholder-img card-img-top" width="100%" height="180" xmlns="http://www.w3.org/2000/svg"
-            role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false">
-            <title>Placeholder</title>
-            <rect width="100%" height="100%" fill="#868e96"></rect>
-            <text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text>
-          </svg>
-          <div class="card-header">
-            <p class="text-center">Banho</p>
-          </div>
-        </div>
-      </div>
-
-      <!--Tosa-->
-      <div class="col-6 col-md-4 col-xxl-2">
-        <div class="card">
-          <svg class="bd-placeholder-img card-img-top" width="100%" height="180" xmlns="http://www.w3.org/2000/svg"
-            role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false">
-            <title>Placeholder</title>
-            <rect width="100%" height="100%" fill="#868e96"></rect>
-            <text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text>
-          </svg>
-          <div class="card-header">
-            <p class="text-center">Tosa</p>
-          </div>
-        </div>
-
-      </div>
-
-    </div>
-
-
-  </section>
-
+    </section>
+  </main>
   <footer>
 
   </footer>

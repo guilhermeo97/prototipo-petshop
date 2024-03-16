@@ -1,0 +1,13 @@
+:root {
+    --cor-primaria: #8941F5; /* Cor primária */
+    --cor-azul: hsl(225, 90%, 61%);
+    --cor-roxo-escuro: #4F42F5;
+    --cor-rosa-claro: #C442F5;
+    --cor-rosa-choque: #F542E3;
+    --cor-roxo-claro: #BB94F5;
+
+}
+
+.navbar{
+    background-color: #8941F5 !important;
+}

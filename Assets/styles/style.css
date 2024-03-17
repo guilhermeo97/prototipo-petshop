@@ -10,3 +10,7 @@ CSS a parte para estilizar algumas coisas.
 .nav-link {
     color: #fff !important;
 }
+
+.bg-azul {
+    background-color: #E5E5E5 !important;
+}

@@ -14,3 +14,14 @@ CSS a parte para estilizar algumas coisas.
 .bg-azul {
     background-color: #E5E5E5 !important;
 }
+
+/*Para páginas com pouco conteúdo foi necessário colocar o rodapé fixo na parte inferior da página*/
+@media (min-width: 1200px) {
+    .rodape__fixado {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        padding: 10px 0;
+    }
+}

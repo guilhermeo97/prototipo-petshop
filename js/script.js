@@ -1,5 +1,5 @@
 function alertaAgendamento(){
-    console.log("Agendamento realizado com sucesso!")
+    alert("Agendamento realizado com sucesso!")
 }
 
 var vetor_banner = ["../prototipo-petshop/assets/images/img-banner-4.PNG", "../prototipo-petshop/assets/images/img-banner-5.PNG", "../prototipo-petshop/assets/images/img-banner-6.PNG"];
